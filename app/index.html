@@ -12,8 +12,10 @@
   </head>
   <body ng-app="ssicRApp">
 
-    <div class="container" ng-include="'/views/navigation_bar.html'"></div>
-    <div class="container" ui-view></div>
+  <center>
+    <div style="width: 80%" ng-include="'/views/navigation_bar.html'"></div>
+    <div style="width: 80%" ui-view></div>
+  </center>
 
      <script src="scripts/libs/jquery-2.1.4.min.js"></script>
     <script src="bower_components/angular/angular.js"></script>
@@ -29,5 +31,9 @@
     <script src="scripts/app.js"></script>
     <script src="scripts/controllers/main.js"></script>
     <script src="scripts/controllers/about.js"></script>
+    <script src="scripts/controllers/navigation_bar.js"></script>
+    <script src="scripts/controllers/support.js"></script>
+    <script src="scripts/controllers/teacher.js"></script>
+    <script src="scripts/controllers/sponsor.js"></script>
 </body>
 </html>
