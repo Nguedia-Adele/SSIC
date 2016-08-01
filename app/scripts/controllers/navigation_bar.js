@@ -1,7 +1,7 @@
 'use strict';
 /* global $*/
 
-angular.module('mobileMoneyApp')
+angular.module('ssicApp')
   .controller('navCtrl', function () {
 
   		$(document).ready(function(){
